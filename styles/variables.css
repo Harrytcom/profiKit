@@ -1,0 +1,23 @@
+:root {
+  /* colors */
+  --accent-color: #f1d264;
+
+  /* background colors */
+  --secondary-bg-color: #f5f5f5;
+  --primary-bg-color: #fff;
+
+  /* typography */
+  --primary-font-family: 'Rubik', sans-serif;
+  --primary-text-transform: uppercase;
+
+  --primary-text-color: #000;
+  --secondary-text-color: #8d9295;
+  --secondary-link-color: #535658;
+  
+  /* borders */
+  --primary-border-color: #ecf0f4;
+  --primary-border: 1px solid var(--primary-border-color);
+
+   /* hovers */
+  --primary-transition: .2s ease-in;
+}

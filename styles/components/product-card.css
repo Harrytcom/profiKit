@@ -1,0 +1,19 @@
+.products {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 20px;
+}
+
+.product-card__card-header {
+  position: relative;
+}
+
+.product-card__btn-group {
+  display: flex;
+  flex-flow: column nowrap;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  gap: 5px;
+}
+

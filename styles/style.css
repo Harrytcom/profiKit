@@ -1,0 +1,12 @@
+@import url(./reset.css);
+@import url(./common.css);
+@import url(./variables.css);
+@import url(./components/tabs.css);
+@import url(./components/button.css);
+@import url(./components/card.css);
+@import url(./components/title.css);
+@import url(./components/icon.css);
+@import url(./components/products-list.css);
+@import url(./components/stepper.css);
+@import url(./components/swiper.css);
+@import url(./components/label.css);
