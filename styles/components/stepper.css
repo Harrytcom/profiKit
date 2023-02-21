@@ -1,4 +1,46 @@
-.stepper__input {
+/* .stepper__input {
   max-width: 100px;
   max-height: 50px;
+} */
+
+.stepper {
+  display: flex;
+  width: 100px;
+  height: 50px;
+  border: var(--primary-border);
+  border-radius: 5px;
+}
+
+.stepper__arrow {
+  position: relative;
+  overflow: hidden;
+  width: 40px;
+  text-indent: -1000px;
+}
+
+.stepper__input {
+  font-size: 18px;
+  font-weight: 400;
+  flex-grow: 1;
+  width: 100%;
+  border: none;
+  color: #4c4e50;
+  text-align: center;
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+}
+
+.stepper__input:focus {
+  outline: none;
+}
+
+.stepper__arrow--down {
+  background: url(../../img/stepper-minus.svg) no-repeat center;
+  padding: 10px 10px 10px 5px;
+}
+
+.stepper__arrow--up {
+  background: url(../../img/stepper-plus.svg) no-repeat center;
+  padding: 10px 5px 10px 10px;
 }

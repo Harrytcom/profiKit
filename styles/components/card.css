@@ -1,25 +1,37 @@
 .card {
-  display: inline-flex;
+  display: flex;
   flex-direction: column;
   position: relative;
   border: var(--primary-border);
   border-radius: 5px;
+  width: 334px;
   /* padding: 25px; */
 }
 
 .card__link {
   text-decoration: none;
   cursor: default;
+  flex-grow: 1;
+
+}
+
+.card__header {
+  background: url(../../img/no-image.svg);
+  display: block;
+  width: 334px;
+  height: 334px;
+  -o-object-fit: cover;
+  object-fit: cover;
 }
 
 .card__image {
-  background: url(../../img/no-image.svg);
+  /* background: url(../../img/no-image.svg);
+  display: block;
   width: 334px;
   height: 334px;
-  display: block;
   min-width: 100%;
   -o-object-fit: cover;
-  object-fit: cover;
+  object-fit: cover; */
 }
 
 .card__label {
@@ -28,13 +40,16 @@
   left: 20px;
 }
 
+.card__content {
+}
+
 .card__info {
   display: flex;
   flex-flow: column nowrap;
   justify-content: center;
   align-items: center;
   color: var(--primary-text-color);
-  /* padding: 10px 25px 0; */
+  padding: 10px 25px 0;
 }
 
 .card__product-name {
@@ -43,6 +58,7 @@
   font-weight: 400;
   line-height: 142%;
   text-align: center;
+  padding: 10px 0 5px 0;
 }
 
 .card__price-brief {
@@ -53,7 +69,7 @@
   align-items: center;
   gap: 10px;
   text-align: center;
-  /* padding: 5px 10px 10px; */
+  padding: 0 0 5px;
 }
 
 .card__current-price {
@@ -71,5 +87,12 @@
   display: flex;
   flex-flow: row nowrap;
   justify-content: center;
-  /* padding: 0 25px 25px; */
+  gap: 10px;
+  padding: 0 0 25px;
+}
+
+.cards-list {
+  display: flex; 
+  flex-flow: row wrap;
+  gap: 20px;
 }

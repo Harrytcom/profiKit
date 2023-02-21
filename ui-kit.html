@@ -4,130 +4,122 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
   <link rel="stylesheet" href="./styles/style.css">
   <title>ui-kit</title>
 </head>
 <body>
 
-  <!-- products -->
-  <ul class="products">
-    <div class="product-card__body card">
-      <a href="" class="product-card__link">
-        <div class="product-card__card-header">
-
-          <div class="product-card__label"></div>
-          <div class="product-card__btn-group">
-            <a class="product-card__btn btn btn-add btn-add--like"></a>
-            <a class="product-card__btn btn btn-add btn-add--compare"></a>
-          </div>
-          <div class="product-card__slide-selector">
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-          </div>
-        </div>
-        <div class="product-card__info">
-          <div class="product-card__product-name"></div>
-          <div class="product-card__price-brief">
-            <div class="product-card__current-price"></div>
-            <div class="product-card__old-price"></div>
-            <div class="stepper">
-              <span class="stepper-arrow down"></span>                                           
-              <input class="product-card__counter stepper-input" type="text" value="">
-              <span class="stepper-arrow up"></span>
-            </div>
-            <a class="btn btn-cart">В корзину</a>
-          </div>
-        </div>
-      </a>
-    </div>
-    <div class="product-card__body card">
-      <a href="" class="product-card__link">
-        <div class="product-card__card-header">
-          <img class="product-card__image" src="./img/cactus.svg" alt="">
-          <div class="product-card__label"></div>
-          <a class="product-card__like btn btn-add btn-add--like"></a>
-          <a class="product-card__compare btn btn-add btn-add--compare"></a>
-          <div class="product-card__slide-selector">
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-          </div>
-        </div>
-        <div class="product-card__info">
-          <div class="product-card__product-name"></div>
-          <div class="product-card__price-brief">
-            <div class="product-card__current-price"></div>
-            <div class="product-card__old-price"></div>
-            <div class="stepper">
-              <span class="stepper-arrow down"></span>                                           
-              <input class="product-card__counter stepper-input" type="text" value="">
-              <span class="stepper-arrow up"></span>
-            </div>
-            <a class="btn btn-cart">В корзину</a>
-          </div>
-        </div>
-      </a>
-    </div>
-    <div class="product-card__body card">
-      <a href="" class="product-card__link">
-        <div class="product-card__card-header">
-          <img class="product-card__image" src="./img/cactus.svg" alt="">
-          <div class="product-card__label"></div>
-          <a class="product-card__like-btn btn btn-add btn-add--like"></a>
-          <a class="product-card__compare-btn btn btn-add btn-add--compare"></a>
-          <div class="product-card__slide-selector">
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-          </div>
-        </div>
-        <div class="product-card__info">
-          <div class="product-card__product-name"></div>
-          <div class="product-card__price-brief">
-            <div class="product-card__current-price"></div>
-            <div class="product-card__old-price"></div>
-            <div class="stepper">
-              <span class="stepper-arrow down"></span>                                           
-              <input class="product-card__counter stepper-input" type="text" value="">
-              <span class="stepper-arrow up"></span>
-            </div>
-            <a class="btn btn-cart">В корзину</a>
-          </div>
-        </div>
-      </a>
-    </div>
-  </ul>
-
-  <!-- buttons -->
-  <a class="btn btn-add btn-add--like" type="a"></a>
-  <a class="btn btn-add btn-add--compare" type="a"></a>
-  <a class="btn btn-cart"></a>
-
-  <!-- counter -->
-  <div class="counter">
-    <span class="counter-arrow down"></span>                                           
-    <input class="product-card__counter counter-input" type="text" value="">
-    <span class="counter-arrow up"></span>
+  <!-- tabs -->
+  <div class="tabs">
+    <ul class="tabs__list">
+      <li class="tabs__list-item">
+        <h2 class="tabs__header title title--m">популярные товары</h2>
+      </li>
+      <li class="tabs__list-item">Недавно купили</li>
+      <li class="tabs__list-item">Вас может заинтересовать</li>
+    </ul>
   </div>
 
-  <!-- links -->
-  <ul class="tag">
-    <li class="tag__item">
-      <a href="" class="tag__link tag__link--active">популярные товары</a>
-    </li>
-    <li class="tag__item">
-      <a href="" class="tag__link">Недавно купили</a>
-    </li>
-    <li class="tag__item">
-      <a href="" class="tag__link">Вас может заинтересовать</a>
-    </li>
+  <ul class="cards-list">
+  <!-- card -->
+    <article class="card">
+      <div class="card__link">
+        <!-- card header -->
+        <div class="card__header">
+          <div class="card__label"></div>
+        </div>
+      </div>
+      <!-- icon group -->
+      <ul class="card__icon-group icon-group">
+        <li class="icon-group__item">
+          <a class="icon" href="#">
+            <img src="./img/favorites-icon.svg" alt="favorites icon">
+          </a>
+        </li>
+        <li class="icon-group__item">
+          <a class="icon" href="#">
+            <img src="./img/compare-icon.svg" alt="compare icon">
+          </a>
+        </li>
+      </ul>
+      <div class="card__content">
+        <!-- card info -->
+        <div class="card__info">
+          <div class="card__product-name">Тарелка керамическая ручной работы ⌀&nbsp;12</div>
+          <div class="card__price-brief">
+            <div class="card__current-price">600 ₽</div>
+            <div class="card__old-price">810</div>
+          </div>
+        </div>
+        <!-- card footer -->
+        <div class="card__footer">
+          <!-- stepper -->
+          <div class="stepper">
+            <button type="button" class="stepper__arrow stepper__arrow--down">Add</button>                                           
+            <input class="stepper__input" type="number" placeholder="" value="1">
+            <button type="button" class="stepper__arrow stepper__arrow--up">Remove</button>
+          </div>
+          <button class="button" type="submit">
+            <img src="./img/cart-icon.svg" alt="">
+            <span>В корзину</span>
+          </button>
+        </div>
+      </div>
+    </article>
+
+    <!-- card -->
+    <article class="card">
+      <div class="card__link">
+        <!-- card header -->
+        <div class="card__header">
+          <img class="card__image" src="./img/cactus.svg" alt="">
+          <div class="card__label label">
+            <img src="./img/label-hit.svg" alt="">
+          </div>
+        </div>
+      </div>
+      <!-- icon group -->
+      <ul class="card__icon-group icon-group">
+        <li class="icon-group__item">
+          <a class="icon" href="#">
+            <img src="./img/favorites-icon.svg" alt="favorites icon">
+          </a>
+        </li>
+        <li class="icon-group__item">
+          <a class="icon" href="#">
+            <img src="./img/compare-icon.svg" alt="compare icon">
+          </a>
+        </li>
+      </ul>
+      <div class="card__content">
+        <!-- card info -->
+        <div class="card__info">
+          <div class="card__product-name">Кашпо для цветов керамическое СИМПЛГРЕЙ</div>
+          <div class="card__price-brief">
+            <div class="card__current-price">450</div>
+            <div class="card__old-price"></div>
+          </div>
+        </div>
+        <!-- card footer -->
+        <div class="card__footer">
+          <!-- stepper -->
+          <div class="stepper">
+            <button type="button" class="stepper__arrow stepper__arrow--down">Add</button>                                           
+            <input class="stepper__input" type="number" placeholder="" value="1">
+            <button type="button" class="stepper__arrow stepper__arrow--up">Remove</button>
+          </div>
+          <button class="button" type="submit">
+            <img src="./img/cart-icon.svg" alt="">
+            <span>В корзину</span>
+          </button>
+        </div>
+      </div>
+    </article>
   </ul>
+  
 </body>
 </html>
