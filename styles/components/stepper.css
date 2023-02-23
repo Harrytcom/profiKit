@@ -1,8 +1,3 @@
-/* .stepper__input {
-  max-width: 100px;
-  max-height: 50px;
-} */
-
 .stepper {
   display: flex;
   width: 100px;
@@ -13,9 +8,10 @@
 
 .stepper__arrow {
   position: relative;
-  overflow: hidden;
   width: 40px;
   text-indent: -1000px;
+  overflow: hidden;
+  cursor: pointer;
 }
 
 .stepper__input {
@@ -24,11 +20,9 @@
   flex-grow: 1;
   width: 100%;
   border: none;
-  color: #4c4e50;
+  color: #4e4c50;
   text-align: center;
-  /* display: flex;
-  align-items: center;
-  justify-content: center; */
+  padding: 0;
 }
 
 .stepper__input:focus {
@@ -37,10 +31,10 @@
 
 .stepper__arrow--down {
   background: url(../../img/stepper-minus.svg) no-repeat center;
-  padding: 10px 10px 10px 5px;
+  padding: 10px 10px 5px;
 }
 
 .stepper__arrow--up {
   background: url(../../img/stepper-plus.svg) no-repeat center;
-  padding: 10px 5px 10px 10px;
+  padding: 10px 5px 10px;
 }

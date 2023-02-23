@@ -3,8 +3,8 @@
 }
 
 .product-slider__item {
-  height: auto;
   display: flex;
+  height: auto;
 }
 
 .product-slider__inner {

@@ -13,8 +13,7 @@
 </head>
 <body>
   <div class="container">
-
-    <!-- tabs -->
+    <!-- TABS -->
     <div class="tabs">
       <ul class="tabs__list" style="margin-bottom: 40px;">
         <li class="tabs__list-item">
@@ -24,15 +23,58 @@
         <li class="tabs__list-item tabs__list-item--inactive">Вас может заинтересовать</li>
       </ul>
     </div>
-
+    <!-- PRODUCT SLIDER SECTION -->
     <div class="product-slider">
+      <!-- SWIPER WRAPPER -->
       <div class="product-slider__inner">
-      <!-- swiper required wrapper -->
-      <ul class="product-slider__list swiper-wrapper">
-        <li class="product-slider__item swiper-slide">
-          <article class="card">
-            <div class="card__header">
-              <div class="card__label label"></div>
+        <ul class="product-slider__list swiper-wrapper">
+          <!-- SWIPER SLIDE -->
+          <li class="product-slider__item swiper-slide">
+            <article class="card">
+              <div class="card__header">
+                <div class="card__label label"></div>
+                <ul class="card__icon-group icon-group">
+                  <li class="icon-group__item">
+                    <a class="icon" href="#">
+                      <img src="./img/favorites-icon.svg" alt="favorites icon">
+                    </a>
+                  </li>
+                  <li class="icon-group__item">
+                    <a class="icon" href="#">
+                      <img src="./img/compare-icon.svg" alt="compare icon">
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div class="card__product-name">Тарелка керамическая ручной работы ⌀&nbsp;12</div>
+              <div class="card__price-brief">
+                <div class="card__current-price">600 ₽</div>
+                <div class="card__old-price">810 ₽</div>
+              </div>
+              <!-- card footer -->
+              <div class="card__footer">
+                <!-- stepper -->
+                <div class="stepper">
+                  <button type="button" class="stepper__arrow stepper__arrow--down">Add</button>                                           
+                  <input class="stepper__input" type="number" placeholder="" value="1">
+                  <button type="button" class="stepper__arrow stepper__arrow--up">Remove</button>
+                </div>
+                <button class="button" type="button">
+                  <img src="./img/cart-icon.svg" alt="">
+                  <span>В корзину</span>
+                </button>
+              </div>
+            </article>
+          </li>
+          <!-- SWIPER SLIDE -->
+          <li class="product-slider__item swiper-slide">
+            <article class="card">
+                <!-- card header -->
+                <div class="card__header">
+                  <img class="card__image" src="./img/cactus.svg" alt="">
+                  <div class="card__label label"></div>
+                </div>
+              <!-- icon group -->
               <ul class="card__icon-group icon-group">
                 <li class="icon-group__item">
                   <a class="icon" href="#">
@@ -45,157 +87,116 @@
                   </a>
                 </li>
               </ul>
-            </div>
-            <div class="card__product-name">Тарелка керамическая ручной работы ⌀&nbsp;12</div>
-            <div class="card__price-brief">
-              <div class="card__current-price">600 ₽</div>
-              <div class="card__old-price">810 ₽</div>
-            </div>
-            <!-- card footer -->
-            <div class="card__footer">
-              <!-- stepper -->
-              <div class="stepper">
-                <button type="button" class="stepper__arrow stepper__arrow--down">Add</button>                                           
-                <input class="stepper__input" type="number" placeholder="" value="1">
-                <button type="button" class="stepper__arrow stepper__arrow--up">Remove</button>
+              <div class="card__product-name">Кашпо для цветов керамическое СИМПЛГРЕЙ</div>
+              <div class="card__price-brief">
+                <div class="card__current-price">450 ₽</div>
+                <div class="card__old-price"></div>
               </div>
-              <button class="button" type="button">
-                <img src="./img/cart-icon.svg" alt="">
-                <span>В корзину</span>
-              </button>
-            </div>
-          </article>
-        </li>
-        <!-- swiper slide -->
-        <li class="product-slider__item swiper-slide">
-          <article class="card">
+              <!-- card footer -->
+              <div class="card__footer">
+                <!-- stepper -->
+                <div class="stepper">
+                  <button type="button" class="stepper__arrow stepper__arrow--down">Add</button>                                           
+                  <input class="stepper__input" type="number" placeholder="" value="1">
+                  <button type="button" class="stepper__arrow stepper__arrow--up">Remove</button>
+                </div>
+                <button class="button" type="button">
+                  <img src="./img/cart-icon.svg" alt="">
+                  <span>В корзину</span>
+                </button>
+              </div>
+            </article>
+          </li>
+          <!-- SWIPER SLIDE -->
+          <li class="product-slider__item swiper-slide">
+            <article class="card">
               <!-- card header -->
               <div class="card__header">
-                <img class="card__image" src="./img/cactus.svg" alt="">
-                <div class="card__label label"></div>
+                <img class="card__image" src="./img/watch.svg" alt="">
+                <div class="card__label label">
+                  <img src="./img/label-hit.svg" alt="favorites icon">
+                </div>
+                <!-- icon group -->
+                <ul class="card__icon-group icon-group">
+                  <li class="icon-group__item">
+                    <a class="icon" href="#">
+                      <img src="./img/favorites-icon.svg" alt="favorites icon">
+                    </a>
+                  </li>
+                  <li class="icon-group__item">
+                    <a class="icon" href="#">
+                      <img src="./img/compare-icon.svg" alt="compare icon">
+                    </a>
+                  </li>
+                </ul>
               </div>
-            <!-- icon group -->
-            <ul class="card__icon-group icon-group">
-              <li class="icon-group__item">
-                <a class="icon" href="#">
-                  <img src="./img/favorites-icon.svg" alt="favorites icon">
-                </a>
-              </li>
-              <li class="icon-group__item">
-                <a class="icon" href="#">
-                  <img src="./img/compare-icon.svg" alt="compare icon">
-                </a>
-              </li>
-            </ul>
-            <div class="card__product-name">Кашпо для цветов керамическое СИМПЛГРЕЙ</div>
-            <div class="card__price-brief">
-              <div class="card__current-price">450 ₽</div>
-              <div class="card__old-price"></div>
-            </div>
-            <!-- card footer -->
-            <div class="card__footer">
-              <!-- stepper -->
-              <div class="stepper">
-                <button type="button" class="stepper__arrow stepper__arrow--down">Add</button>                                           
-                <input class="stepper__input" type="number" placeholder="" value="1">
-                <button type="button" class="stepper__arrow stepper__arrow--up">Remove</button>
+              <!-- card info -->
+              <div class="card__product-name">Умные часы SMARTWATCH XM 109 черный</div>
+              <div class="card__price-brief">
+                <div class="card__current-price">12 999 ₽</div>
+                <div class="card__old-price"></div>
               </div>
-              <button class="button" type="button">
-                <img src="./img/cart-icon.svg" alt="">
-                <span>В корзину</span>
-              </button>
-            </div>
-          </article>
-        </li>
-        <!-- SLIDE ITEM -->
-        <li class="product-slider__item swiper-slide">
-          <article class="card">
-            <!-- card header -->
-            <div class="card__header">
-              <img class="card__image" src="./img/watch.svg" alt="">
-              <div class="card__label label">
-                <img src="./img/label-hit.svg" alt="favorites icon">
+              <!-- card footer -->
+              <div class="card__footer">
+                <!-- stepper -->
+                <div class="stepper">
+                  <button type="button" class="stepper__arrow stepper__arrow--down">Add</button>                                           
+                  <input class="stepper__input" type="number" placeholder="" value="1">
+                  <button type="button" class="stepper__arrow stepper__arrow--up">Remove</button>
+                </div>
+                <button class="button" type="button">
+                  <img src="./img/cart-icon.svg" alt="">
+                  <span>В корзину</span>
+                </button>
               </div>
-              <!-- icon group -->
-              <ul class="card__icon-group icon-group">
-                <li class="icon-group__item">
-                  <a class="icon" href="#">
-                    <img src="./img/favorites-icon.svg" alt="favorites icon">
-                  </a>
-                </li>
-                <li class="icon-group__item">
-                  <a class="icon" href="#">
-                    <img src="./img/compare-icon.svg" alt="compare icon">
-                  </a>
-                </li>
-              </ul>
-            </div>
-            <!-- card info -->
-            <div class="card__product-name">Умные часы SMARTWATCH XM 109 черный</div>
-            <div class="card__price-brief">
-              <div class="card__current-price">12 999 ₽</div>
-              <div class="card__old-price"></div>
-            </div>
-            <!-- card footer -->
-            <div class="card__footer">
-              <!-- stepper -->
-              <div class="stepper">
-                <button type="button" class="stepper__arrow stepper__arrow--down">Add</button>                                           
-                <input class="stepper__input" type="number" placeholder="" value="1">
-                <button type="button" class="stepper__arrow stepper__arrow--up">Remove</button>
+            </article>
+          </li>
+          <!-- SWIPER SLIDE -->
+          <li class="product-slider__item swiper-slide">
+            <article class="card">
+              <!-- card header -->
+              <div class="card__header">
+                <img class="card__image" src="./img/ring.svg" alt="">
+                <div class="card__label label">
+                  <img src="./img/label-new.svg" alt="favorites icon">
+                </div>
+                <!-- icon group -->
+                <ul class="card__icon-group icon-group">
+                  <li class="icon-group__item">
+                    <a class="icon" href="#">
+                      <img src="./img/favorites-icon.svg" alt="favorites icon">
+                    </a>
+                  </li>
+                  <li class="icon-group__item">
+                    <a class="icon" href="#">
+                      <img src="./img/compare-icon.svg" alt="compare icon">
+                    </a>
+                  </li>
+                </ul>
               </div>
-              <button class="button" type="button">
-                <img src="./img/cart-icon.svg" alt="">
-                <span>В корзину</span>
-              </button>
-            </div>
-          </article>
-        </li>
-        <!-- swiper slide -->
-        <li class="product-slider__item swiper-slide">
-          <article class="card">
-            <!-- card header -->
-            <div class="card__header">
-              <img class="card__image" src="./img/ring.svg" alt="">
-              <div class="card__label label">
-                <img src="./img/label-new.svg" alt="favorites icon">
+              <div class="card__product-name">Золотое кольцо МАЛИКА с аметистом и фианитами</div>
+              <div class="card__price-brief">
+                <div class="card__current-price">15 700 ₽</div>
+                <div class="card__old-price"></div>
               </div>
-              <!-- icon group -->
-              <ul class="card__icon-group icon-group">
-                <li class="icon-group__item">
-                  <a class="icon" href="#">
-                    <img src="./img/favorites-icon.svg" alt="favorites icon">
-                  </a>
-                </li>
-                <li class="icon-group__item">
-                  <a class="icon" href="#">
-                    <img src="./img/compare-icon.svg" alt="compare icon">
-                  </a>
-                </li>
-              </ul>
-            </div>
-            <div class="card__product-name">Золотое кольцо МАЛИКА с аметистом и фианитами</div>
-            <div class="card__price-brief">
-              <div class="card__current-price">15 700 ₽</div>
-              <div class="card__old-price"></div>
-            </div>
-            <!-- card footer -->
-            <div class="card__footer">
-              <!-- stepper -->
-              <div class="stepper">
-                <button type="button" class="stepper__arrow stepper__arrow--down">Add</button>                                           
-                <input class="stepper__input" type="number" placeholder="" value="1">
-                <button type="button" class="stepper__arrow stepper__arrow--up">Remove</button>
+              <!-- card footer -->
+              <div class="card__footer">
+                <!-- stepper -->
+                <div class="stepper">
+                  <button type="button" class="stepper__arrow stepper__arrow--down">Add</button>                                           
+                  <input class="stepper__input" type="number" placeholder="" value="1">
+                  <button type="button" class="stepper__arrow stepper__arrow--up">Remove</button>
+                </div>
+                <button class="button" type="button">
+                  <img src="./img/cart-icon.svg" alt="">
+                  <span>В корзину</span>
+                </button>
               </div>
-              <button class="button" type="button">
-                <img src="./img/cart-icon.svg" alt="">
-                <span>В корзину</span>
-              </button>
-            </div>
-          </article>
-        </li>
-      </ul>
+            </article>
+          </li>
+        </ul>
       </div>
+      <!-- SLIDER NAVIGATION -->
       <button type="button" class="slider-button product-slider__prev">
         <svg class="slider-button__arrow" viewBox="0 0 12 21">
           <path d="M11 1L2 10.5L11 20">

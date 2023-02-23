@@ -14,4 +14,9 @@
   background: var(--accent-color);
   cursor: pointer;
   border-radius: 5px;
+  transition: var(--primary-transition);
+}
+
+.button:hover {
+  background: #f1c838;
 }
