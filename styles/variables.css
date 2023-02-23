@@ -17,7 +17,9 @@
   /* borders */
   --primary-border-color: #ecf0f4;
   --primary-border: 1px solid var(--primary-border-color);
+  --secondary-border-color: #535658;
+  --secondary-border: 1px dashed var(--secondary-border-color);
 
    /* hovers */
-  --primary-transition: .2s ease-in;
+  --primary-transition: .1s ease-in;
 }

@@ -1,4 +1,4 @@
-const swiper = new Swiper('.swiper', {
+const swiper = new Swiper('.product-slider__inner', {
 
   speed: 400,
   spaceBetween: 20,
@@ -7,8 +7,8 @@ const swiper = new Swiper('.swiper', {
   loop: true,
 
   navigation: {
-    nextEl: '.swiper-button-next',
-    prevEl: '.swiper-button-prev'
+    nextEl: '.product-slider__next',
+    prevEl: '.product-slider__prev'
   },
 
   pagination: {

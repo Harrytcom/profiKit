@@ -11,7 +11,7 @@
   font-weight: 500;
   line-height: 121%;
   color: var(--primary-text-color);
-  background-color: var(--accent-color);
+  background: var(--accent-color);
   cursor: pointer;
   border-radius: 5px;
 }

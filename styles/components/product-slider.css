@@ -1,6 +1,26 @@
 .product-slider {
-  /* display: flex;
-  flex-flow: row wrap;
-  gap: 20px;
-  justify-content: center; */
+  position: relative;
+}
+
+.product-slider__item {
+  height: auto;
+  display: flex;
+}
+
+.product-slider__inner {
+  overflow: hidden;
+}
+
+.product-slider__prev, .product-slider__next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.product-slider__prev {
+  left: -86px;
+}
+
+.product-slider__next {
+  right: -86px;
 }
