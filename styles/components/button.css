@@ -18,5 +18,5 @@
 }
 
 .button:hover {
-  background: #f1c838;
+  background: var(--primary-hover-color);
 }

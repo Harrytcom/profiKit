@@ -3,6 +3,7 @@
   flex-flow: row nowrap;
   align-items: center;
   gap: 25px;
+  margin-bottom: 40px;
 }
 
 .tabs__list-item {
@@ -14,4 +15,10 @@
 
 .tabs__list-item--inactive {
   border-bottom: var(--secondary-border);
+}
+
+@media (max-width: 576px) {
+  .tabs__list {
+    margin-bottom: 25px;
+  }
 }

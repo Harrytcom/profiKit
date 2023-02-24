@@ -16,7 +16,9 @@
   background: var(--primary-bg-color);
   cursor: pointer;
   border-radius: 50px;
-  transition: ease-in-out .6s;
+  transition: ease-in-out 0.6s;
+  position: relative;
+  z-index: 5;
 }
 
 .icon:hover {

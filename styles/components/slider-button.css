@@ -7,11 +7,11 @@
   border-radius: 5px;
   text-indent: -1000px;
   overflow: hidden;
-  transition: .1s ease-in-out;
+  transition: 0.1s ease-in-out;
 }
 
 .slider-button:hover {
-  background: var(--accent-color);
+  background: var(--primary-hover-color);
 }
 
 .slider-button__arrow {
