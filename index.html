@@ -12,264 +12,272 @@
   <title>Marketplace</title>
 </head>
 <body>
-  <div class="container">
-    <!-- TABS -->
-    <div class="tabs">
-      <ul class="tabs__list">
-        <li class="tabs__list-item">
-          <h2 class="tabs__header title title--m">популярные товары</h2>
-        </li>
-        <li class="tabs__list-item tabs__list-item--inactive">Недавно купили</li>
-        <li class="tabs__list-item tabs__list-item--inactive">Вас может заинтересовать</li>
-      </ul>
-    </div>
-    <!-- PRODUCT SLIDER SECTION -->
-    <div class="product-slider">
-      <!-- SWIPER WRAPPER -->
-      <div class="product-slider__inner">
-        <ul class="product-slider__list swiper-wrapper">
-
-          <!-- SWIPER SLIDE -->
-          <li class="product-slider__item swiper-slide">
-            <article class="card">
-              <div class="card__header">
-                <div class="card__label label"></div>
-                <ul class="card__icon-group icon-group">
-                  <li class="icon-group__item">
-                    <a class="icon" href="#">
-                      <img src="./img/favorites-icon.svg" alt="favorites icon">
-                    </a>
-                  </li>
-                  <li class="icon-group__item">
-                    <a class="icon" href="#">
-                      <img src="./img/compare-icon.svg" alt="compare icon">
-                    </a>
-                  </li>
-                </ul>
-              </div>
-              <div class="card__product-name">Тарелка керамическая ручной работы ⌀&nbsp;12</div>
-              <div class="card__price-brief">
-                <div class="card__current-price">600 ₽</div>
-                <div class="card__old-price">810 ₽</div>
-              </div>
-              <div class="card__footer">
-                <!-- STEPPER -->
-                <div class="stepper">
-                  <button type="button" class="stepper__arrow stepper__arrow--down">Add</button>                                           
-                  <input class="stepper__input" type="number" placeholder="" value="1">
-                  <button type="button" class="stepper__arrow stepper__arrow--up">Remove</button>
-                </div>
-                <button class="button" type="button">
-                  <img src="./img/cart-icon.svg" alt="">
-                  <span>В корзину</span>
-                </button>
-              </div>
-            </article>
+  <section class="section">
+    <div class="container">
+      <!-- TABS -->
+      <div class="tabs">
+        <ul class="tabs__list">
+          <li class="tabs__list-item">
+            <h2 class="tabs__header title title--m">популярные товары</h2>
           </li>
-
-          <!-- SWIPER SLIDE -->
-          <li class="product-slider__item swiper-slide">
-            <article class="card">
-              <div class="card__header">
-                <!-- INNER CARD GALLERY -->
-                <div class="gallery">
-                  <div class="gallery__sector"></div>
-                  <div class="gallery__sector"></div>
-                  <div class="gallery__sector"></div>
-                  <div class="gallery__sector"></div>
-                  <div class="gallery__sector"></div>
-                  <div class="gallery__images">
-                    <img class="gallery__img" src="./img/cactus.svg" alt="Кашпо для цветов керамическое СИМПЛГРЕЙ"/>
-                    <img class="gallery__img" src="./img/watch.svg" alt="Умные часы SMARTWATCH XM 109 черный"/>
-                    <img class="gallery__img" src="./img/ring.svg" alt="Золотое кольцо МАЛИКА с аметистом и фианитами"/>
-                    <img class="gallery__img" src="./img/cactus.svg" alt="Кашпо для цветов керамическое СИМПЛГРЕЙ"/>
-                    <img class="gallery__img" src="./img/watch.svg" alt="Умные часы SMARTWATCH XM 109 черный"/>
-                  </div>
-                  <ul class="gallery__bullets">
-                    <li class="gallery__bullet"></li>
-                    <li class="gallery__bullet"></li>
-                    <li class="gallery__bullet"></li>
-                    <li class="gallery__bullet"></li>
-                    <li class="gallery__bullet"></li>
-                  </ul>
-                </div>
-              </div>
-              <!-- ICON GROUP -->
-              <ul class="card__icon-group icon-group">
-                <li class="icon-group__item">
-                  <a class="icon" href="#">
-                    <img src="./img/favorites-icon.svg" alt="в избранное" />
-                  </a>
-                </li>
-                <li class="icon-group__item">
-                  <a class="icon" href="#">
-                    <img src="./img/compare-icon.svg" alt="сравнить">
-                  </a>
-                </li>
-              </ul>
-              <div class="card__product-name">Кашпо для цветов керамическое СИМПЛГРЕЙ</div>
-              <div class="card__price-brief">
-                <div class="card__current-price">450 ₽</div>
-                <div class="card__old-price"></div>
-              </div>
-              <div class="card__footer">
-                <!-- STEPPER -->
-                <div class="stepper">
-                  <button type="button" class="stepper__arrow stepper__arrow--down">Add</button>                                           
-                  <input class="stepper__input" type="number" placeholder="" value="1">
-                  <button type="button" class="stepper__arrow stepper__arrow--up">Remove</button>
-                </div>
-                <button class="button" type="button">
-                  <img src="./img/cart-icon.svg" alt="">
-                  <span>В корзину</span>
-                </button>
-              </div>
-            </article>
-          </li>
-
-          <!-- SWIPER SLIDE -->
-          <li class="product-slider__item swiper-slide">
-            <article class="card">
-              <div class="card__header">
-                <!-- INNER CARD GALLERY -->
-                <div class="gallery">
-                  <div class="gallery__sector"></div>
-                  <div class="gallery__sector"></div>
-                  <div class="gallery__sector"></div>
-                  <div class="gallery__sector"></div>
-                  <div class="gallery__sector"></div>
-                  <div class="gallery__images">
-                    <img class="gallery__img" src="./img/cactus.svg" alt=""/>
-                    <img class="gallery__img" src="./img/watch.svg" alt=""/>
-                    <img class="gallery__img" src="./img/ring.svg" alt=""/>
-                    <img class="gallery__img" src="./img/cactus.svg" alt=""/>
-                    <img class="gallery__img" src="./img/watch.svg" alt=""/>
-                  </div>
-                  <ul class="gallery__bullets">
-                    <li class="gallery__bullet"></li>
-                    <li class="gallery__bullet"></li>
-                    <li class="gallery__bullet"></li>
-                    <li class="gallery__bullet"></li>
-                    <li class="gallery__bullet"></li>
-                  </ul>
-                </div>
-                <div class="card__label label">
-                  <img src="./img/label-hit.svg" alt="favorites icon">
-                </div>
-                <!-- ICON GROUP -->
-                <ul class="card__icon-group icon-group">
-                  <li class="icon-group__item">
-                    <a class="icon" href="#">
-                      <img src="./img/favorites-icon.svg" alt="favorites icon">
-                    </a>
-                  </li>
-                  <li class="icon-group__item">
-                    <a class="icon" href="#">
-                      <img src="./img/compare-icon.svg" alt="compare icon">
-                    </a>
-                  </li>
-                </ul>
-              </div>
-              <div class="card__product-name">Умные часы SMARTWATCH XM 109 черный</div>
-              <div class="card__price-brief">
-                <div class="card__current-price">12 999 ₽</div>
-                <div class="card__old-price"></div>
-              </div>
-              <div class="card__footer">
-                <!-- STEPPER -->
-                <div class="stepper">
-                  <button type="button" class="stepper__arrow stepper__arrow--down">Add</button>                                           
-                  <input class="stepper__input" type="number" placeholder="" value="1">
-                  <button type="button" class="stepper__arrow stepper__arrow--up">Remove</button>
-                </div>
-                <button class="button" type="button">
-                  <img src="./img/cart-icon.svg" alt="">
-                  <span>В корзину</span>
-                </button>
-              </div>
-            </article>
-          </li>
-          
-          <!-- SWIPER SLIDE -->
-          <li class="product-slider__item swiper-slide">
-            <article class="card">
-              <div class="card__header">
-                <!-- INNER CARD GALLERY -->
-                <div class="gallery">
-                  <div class="gallery__sector"></div>
-                  <div class="gallery__sector"></div>
-                  <div class="gallery__sector"></div>
-                  <div class="gallery__sector"></div>
-                  <div class="gallery__sector"></div>
-                  <div class="gallery__images">
-                    <img class="gallery__img" src="./img/ring.svg" alt=""/>
-                    <img class="gallery__img" src="./img/cactus.svg" alt=""/>
-                    <img class="gallery__img" src="./img/ring.svg" alt=""/>
-                    <img class="gallery__img" src="./img/cactus.svg" alt=""/>
-                    <img class="gallery__img" src="./img/ring.svg" alt=""/>
-
-                  </div>
-                  <ul class="gallery__bullets">
-                    <li class="gallery__bullet"></li>
-                    <li class="gallery__bullet"></li>
-                    <li class="gallery__bullet"></li>
-                    <li class="gallery__bullet"></li>
-                    <li class="gallery__bullet"></li>
-                  </ul>
-                </div>
-                <div class="card__label label">
-                  <img src="./img/label-new.svg" alt="favorites icon">
-                </div>
-                <!-- ICON GROUP -->
-                <ul class="card__icon-group icon-group">
-                  <li class="icon-group__item">
-                    <a class="icon" href="#">
-                      <img src="./img/favorites-icon.svg" alt="favorites icon">
-                    </a>
-                  </li>
-                  <li class="icon-group__item">
-                    <a class="icon" href="#">
-                      <img src="./img/compare-icon.svg" alt="compare icon">
-                    </a>
-                  </li>
-                </ul>
-              </div>
-              <div class="card__product-name">Золотое кольцо МАЛИКА с аметистом и фианитами</div>
-              <div class="card__price-brief">
-                <div class="card__current-price">15 700 ₽</div>
-                <div class="card__old-price"></div>
-              </div>
-              <div class="card__footer">
-                <!-- STEPPER -->
-                <div class="stepper">
-                  <button type="button" class="stepper__arrow stepper__arrow--down">Add</button>                                           
-                  <input class="stepper__input" type="number" placeholder="" value="1">
-                  <button type="button" class="stepper__arrow stepper__arrow--up">Remove</button>
-                </div>
-                <button class="button" type="button">
-                  <img src="./img/cart-icon.svg" alt="">
-                  <span>В корзину</span>
-                </button>
-              </div>
-            </article>
-          </li>
+          <li class="tabs__list-item tabs__list-item--inactive">Недавно купили</li>
+          <li class="tabs__list-item tabs__list-item--inactive">Вас может заинтересовать</li>
         </ul>
       </div>
-      <!-- SLIDER NAVIGATION -->
-      <button type="button" class="slider-button product-slider__prev">
-        <svg class="slider-button__arrow" viewBox="0 0 12 21">
-          <path d="M11 1L2 10.5L11 20">
-        </svg>     
-        назад
-      </button>
-      <button type="button" class="slider-button product-slider__next">
-        <svg class="slider-button__arrow" viewBox="0 0 12 21">
-          <path d="M1 1L10 10.5L1 20">
-        </svg>            
-        вперёд
-      </button>
+      <!-- PRODUCT SLIDER SECTION -->
+      <div class="product-slider">
+        <!-- SWIPER WRAPPER -->
+        <div class="product-slider__inner">
+          <ul class="product-slider__list swiper-wrapper">
+            <!-- SWIPER SLIDE -->
+            <li class="product-slider__item swiper-slide">
+              <article class="card">
+                <div class="card__header">
+                  <!-- INNER CARD GALLERY -->
+                  <div class="gallery">
+                    <div class="gallery__sector"></div>
+                    <div class="gallery__sector"></div>
+                    <div class="gallery__sector"></div>
+                    <div class="gallery__sector"></div>
+                    <div class="gallery__sector"></div>
+                    <ul class="gallery__bullets">
+                      <li class="gallery__bullet"></li>
+                      <li class="gallery__bullet"></li>
+                      <li class="gallery__bullet"></li>
+                      <li class="gallery__bullet"></li>
+                      <li class="gallery__bullet"></li>
+                    </ul>
+                  </div>
+                  <div class="card__label label"></div>
+                  <ul class="card__icon-group icon-group">
+                    <li class="icon-group__item">
+                      <button class="icon">
+                        <img src="./img/favorites-icon.svg" alt="в избранное">
+                      </button>
+                    </li>
+                    <li class="icon-group__item">
+                      <button class="icon">
+                        <img src="./img/compare-icon.svg" alt="сравнить">
+                      </button>
+                    </li>
+                  </ul>
+                </div>
+                <p class="card__product-name">Тарелка керамическая ручной работы ⌀&nbsp;12</p>
+                <p class="card__price-brief">
+                  <span class="card__current-price">600 ₽</span>
+                  <span class="card__old-price">810 ₽</span>
+                </p>
+                <div class="card__footer card__footer-js">
+                  <div class="stepper">
+                    <button type="button" class="stepper__arrow stepper__arrow--down stepper__arrow--down-js">Add</button>
+                    <input class="stepper__input stepper__input-js" type="number" placeholder="" value="1">
+                    <button type="button" class="stepper__arrow stepper__arrow--up stepper__arrow--up-js">Remove</button>
+                  </div>
+                  <button class="button card__button card__button-js" type="button">
+                    <img src="./img/cart-icon.svg" alt="корзина">
+                    <span>В корзину</span>
+                  </button>
+                </div>
+              </article>
+            </li>
+            <!-- SWIPER SLIDE -->
+            <li class="product-slider__item swiper-slide">
+              <article class="card">
+                <div class="card__header">
+                  <!-- INNER CARD GALLERY -->
+                  <div class="gallery">
+                    <div class="gallery__sector"></div>
+                    <div class="gallery__sector"></div>
+                    <div class="gallery__sector"></div>
+                    <div class="gallery__sector"></div>
+                    <div class="gallery__sector"></div>
+                    <div class="gallery__images">
+                      <img class="gallery__img" src="./img/pot.svg" alt="Кашпо для цветов керамическое СИМПЛГРЕЙ"/>
+                      <img class="gallery__img" src="./img/watch.svg" alt="Умные часы SMARTWATCH XM 109 черный"/>
+                      <img class="gallery__img" src="./img/ring.svg" alt="Золотое кольцо МАЛИКА с аметистом и фианитами"/>
+                      <img class="gallery__img" src="./img/pot.svg" alt="Кашпо для цветов керамическое СИМПЛГРЕЙ"/>
+                      <img class="gallery__img" src="./img/watch.svg" alt="Умные часы SMARTWATCH XM 109 черный"/>
+                    </div>
+                    <ul class="gallery__bullets">
+                      <li class="gallery__bullet"></li>
+                      <li class="gallery__bullet"></li>
+                      <li class="gallery__bullet"></li>
+                      <li class="gallery__bullet"></li>
+                      <li class="gallery__bullet"></li>
+                    </ul>
+                  </div>
+                </div>
+                <!-- ICON GROUP -->
+                <ul class="card__icon-group icon-group">
+                  <li class="icon-group__item">
+                    <button class="icon">
+                      <img src="./img/favorites-icon.svg" alt="в избранное" />
+                    </button>
+                  </li>
+                  <li class="icon-group__item">
+                    <button class="icon">
+                      <img src="./img/compare-icon.svg" alt="сравнить">
+                    </button>
+                  </li>
+                </ul>
+                <p class="card__product-name">Кашпо для цветов керамическое СИМПЛГРЕЙ</p>
+                <p class="card__price-brief">
+                  <span class="card__current-price">450 ₽</span>
+                  <span class="card__old-price"></span>
+                </p>
+                <div class="card__footer card__footer-js">
+                  <div class="stepper">
+                    <button type="button" class="stepper__arrow stepper__arrow--down stepper__arrow--down-js">Add</button>                                           
+                    <input class="stepper__input stepper__input-js" type="number" placeholder="" value="1">
+                    <button type="button" class="stepper__arrow stepper__arrow--up stepper__arrow--up-js">Remove</button>
+                  </div>
+                  <button class="button card__button card__button-js" type="button">
+                    <img src="./img/cart-icon.svg" alt="корзина">
+                    <span>В корзину</span>
+                  </button>
+                </div>
+              </article>
+            </li>
+            <!-- SWIPER SLIDE -->
+            <li class="product-slider__item swiper-slide">
+              <article class="card">
+                <div class="card__header">
+                  <!-- INNER CARD GALLERY -->
+                  <div class="gallery">
+                    <div class="gallery__sector"></div>
+                    <div class="gallery__sector"></div>
+                    <div class="gallery__sector"></div>
+                    <div class="gallery__sector"></div>
+                    <div class="gallery__sector"></div>
+                    <div class="gallery__images">
+                      <img class="gallery__img" src="./img/watch.svg" alt="Умные часы SMARTWATCH XM 109 черный"/>
+                      <img class="gallery__img" src="./img/pot.svg" alt="Кашпо для цветов керамическое СИМПЛГРЕЙ"/>
+                      <img class="gallery__img" src="./img/ring.svg" alt="Золотое кольцо МАЛИКА с аметистом и фианитами"/>
+                      <img class="gallery__img" src="./img/watch.svg" alt="Умные часы SMARTWATCH XM 109 черный"/>
+                      <img class="gallery__img" src="./img/pot.svg" alt="Кашпо для цветов керамическое СИМПЛГРЕЙ"/>
+                    </div>
+                    <ul class="gallery__bullets">
+                      <li class="gallery__bullet"></li>
+                      <li class="gallery__bullet"></li>
+                      <li class="gallery__bullet"></li>
+                      <li class="gallery__bullet"></li>
+                      <li class="gallery__bullet"></li>
+                    </ul>
+                  </div>
+                  <div class="card__label label">
+                    <img src="./img/label-hit.svg" alt="хит продаж">
+                  </div>
+                  <!-- ICON GROUP -->
+                  <ul class="card__icon-group icon-group">
+                    <li class="icon-group__item">
+                      <button class="icon">
+                        <img src="./img/favorites-icon.svg" alt="в избранное">
+                      </button>
+                    </li>
+                    <li class="icon-group__item">
+                      <button class="icon">
+                        <img src="./img/compare-icon.svg" alt="сравнить">
+                      </button>
+                    </li>
+                  </ul>
+                </div>
+                <p class="card__product-name">Умные часы SMARTWATCH XM 109 черный</p>
+                <p class="card__price-brief">
+                  <span class="card__current-price">12 999 ₽</span>
+                  <span class="card__old-price"></span>
+                </p>
+                <div class="card__footer card__footer-js">
+                  <div class="stepper">
+                    <button type="button" class="stepper__arrow stepper__arrow--down stepper__arrow--down-js">Add</button>                                           
+                    <input class="stepper__input stepper__input-js" type="number" placeholder="" value="1">
+                    <button type="button" class="stepper__arrow stepper__arrow--up stepper__arrow--up-js">Remove</button>
+                  </div>
+                  <button class="button card__button card__button-js" type="button">
+                    <img src="./img/cart-icon.svg" alt="корзина">
+                    <span>В корзину</span>
+                  </button>
+                </div>
+              </article>
+            </li>
+            <!-- SWIPER SLIDE -->
+            <li class="product-slider__item swiper-slide">
+              <article class="card">
+                <div class="card__header">
+                  <!-- INNER CARD GALLERY -->
+                  <div class="gallery">
+                    <div class="gallery__sector"></div>
+                    <div class="gallery__sector"></div>
+                    <div class="gallery__sector"></div>
+                    <div class="gallery__sector"></div>
+                    <div class="gallery__sector"></div>
+                    <div class="gallery__images">
+                      <img class="gallery__img" src="./img/ring.svg" alt="Золотое кольцо МАЛИКА с аметистом и фианитами"/>
+                      <img class="gallery__img" src="./img/pot.svg" alt="Кашпо для цветов керамическое СИМПЛГРЕЙ"/>
+                      <img class="gallery__img" src="./img/ring.svg" alt="Золотое кольцо МАЛИКА с аметистом и фианитами"/>
+                      <img class="gallery__img" src="./img/pot.svg" alt="Кашпо для цветов керамическое СИМПЛГРЕЙ"/>
+                      <img class="gallery__img" src="./img/ring.svg" alt="Золотое кольцо МАЛИКА с аметистом и фианитами"/>
+                    </div>
+                    <ul class="gallery__bullets">
+                      <li class="gallery__bullet"></li>
+                      <li class="gallery__bullet"></li>
+                      <li class="gallery__bullet"></li>
+                      <li class="gallery__bullet"></li>
+                      <li class="gallery__bullet"></li>
+                    </ul>
+                  </div>
+                  <div class="card__label label">
+                    <img src="./img/label-new.svg" alt="новинка">
+                  </div>
+                  <!-- ICON GROUP -->
+                  <ul class="card__icon-group icon-group">
+                    <li class="icon-group__item">
+                      <button class="icon">
+                        <img src="./img/favorites-icon.svg" alt="в избранное">
+                      </button>
+                    </li>
+                    <li class="icon-group__item">
+                      <button class="icon">
+                        <img src="./img/compare-icon.svg" alt="сравнить">
+                      </button>
+                    </li>
+                  </ul>
+                </div>
+                <p class="card__product-name">Золотое кольцо МАЛИКА с аметистом и фианитами</p>
+                <p class="card__price-brief">
+                  <span class="card__current-price">15 700 ₽</span>
+                  <span class="card__old-price"></span>
+                </p>
+                <div class="card__footer card__footer-js">
+                  <div class="stepper">
+                    <button type="button" class="stepper__arrow stepper__arrow--down stepper__arrow--down-js">Add</button>                                           
+                    <input class="stepper__input stepper__input-js" type="number" placeholder="" value="1">
+                    <button type="button" class="stepper__arrow stepper__arrow--up stepper__arrow--up-js">Remove</button>
+                  </div>
+                  <button class="button card__button card__button-js" type="button">
+                    <img src="./img/cart-icon.svg" alt="корзина">
+                    <span>В корзину</span>
+                  </button>
+                </div>
+              </article>
+            </li>
+          </ul>
+        </div>
+        <!-- SLIDER NAVIGATION -->
+        <button type="button" class="slider-button product-slider__prev">
+          <svg class="slider-button__arrow" viewBox="0 0 12 21">
+            <path d="M11 1L2 10.5L11 20">
+          </svg>     
+          назад
+        </button>
+        <button type="button" class="slider-button product-slider__next">
+          <svg class="slider-button__arrow" viewBox="0 0 12 21">
+            <path d="M1 1L10 10.5L1 20">
+          </svg>            
+          вперёд
+        </button>
+      </div>
     </div>
-  </div>
+  </section>
   <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
   <script src="./scripts/script.js"></script>
   </body>

@@ -1,6 +1,6 @@
 .tabs__list {
   display: flex;
-  flex-flow: row nowrap;
+  flex-flow: row wrap;
   align-items: center;
   gap: 25px;
   margin-bottom: 40px;
@@ -15,10 +15,18 @@
 
 .tabs__list-item--inactive {
   border-bottom: var(--secondary-border);
+  order: 3;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 720px) {
   .tabs__list {
+    flex-direction: column;
+    gap: 10px;
     margin-bottom: 25px;
+    align-items: flex-start;
+  }
+
+  .tabs__list-item {
+    font-size: 14px;
   }
 }

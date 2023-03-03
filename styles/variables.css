@@ -3,8 +3,8 @@
   --accent-color: #f1d264;
   --primary-hover-color: #e8b910;
 
-  --secondary-bg-color: #f5f5f5;
   --primary-bg-color: #fff;
+  --secondary-bg-color: #f5f5f5;
 
   /* TYPOGRAPHY */
   --primary-font-family: "Rubik", sans-serif;
@@ -17,8 +17,8 @@
   --primary-border-color: #ecf0f4;
   --primary-border: 1px solid var(--primary-border-color);
   --secondary-border-color: #535658;
-  --secondary-border: 1px dashed var(--secondary-border-color);
+  --secondary-border: 1px dotted var(--secondary-border-color);
 
   /* HOVERS */
-  --primary-transition: 0.1s ease-in;
+  --primary-transition: .1s ease-in;
 }

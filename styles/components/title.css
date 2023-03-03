@@ -8,3 +8,9 @@
 .title--m {
   font-size: 34px;
 }
+
+@media (max-width: 720px) {
+  .title--m {
+    font-size: 18px;
+  }
+}

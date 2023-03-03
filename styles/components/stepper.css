@@ -12,6 +12,11 @@
   text-indent: -1000px;
   overflow: hidden;
   cursor: pointer;
+  transition: var(--primary-transition);
+}
+
+.stepper__arrow:hover {
+  background-color: rgba(0, 0, 0, .2);
 }
 
 .stepper__input {
@@ -23,6 +28,7 @@
   color: #4e4c50;
   text-align: center;
   padding: 0;
+  cursor: pointer;
 }
 
 .stepper__input:focus {
@@ -37,4 +43,10 @@
 .stepper__arrow--up {
   background: url(../../img/stepper-plus.svg) no-repeat center;
   padding: 10px 5px 10px;
+}
+
+@media (max-width: 720px) {
+  .stepper {
+    display: none;
+  }
 }

@@ -2,12 +2,12 @@
   position: relative;
   width: 40px;
   height: 40px;
-  background: none;
+  background: var(--primary-bg-color);
   border: var(--primary-border);
   border-radius: 5px;
   text-indent: -1000px;
   overflow: hidden;
-  transition: 0.1s ease-in-out;
+  transition: var(--primary-transition);
 }
 
 .slider-button:hover {
@@ -15,10 +15,10 @@
 }
 
 .slider-button__arrow {
-  position: absolute;
   display: block;
   width: 12px;
   height: 21px;
+  position: absolute;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
@@ -26,4 +26,10 @@
   stroke: black;
   stroke-width: 2px;
   stroke-linecap: round;
+}
+
+@media (max-width: 720px) {
+  .slider-button {
+    display: none;
+  }
 }
