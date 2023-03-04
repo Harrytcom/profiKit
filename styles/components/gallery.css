@@ -8,7 +8,6 @@
 
 .gallery__sector {
   width: 100%;
-  cursor: pointer;
   position: relative;
   z-index: 3;
 }

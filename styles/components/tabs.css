@@ -11,11 +11,12 @@
   font-weight: 400;
   line-height: 141%;
   color: var(--secondary-link-color);
+  border-bottom: var(--secondary-border);
 }
 
-.tabs__list-item--inactive {
-  border-bottom: var(--secondary-border);
-  order: 3;
+.tabs__list-item--active {
+  order: -3;
+  border-bottom: none;
 }
 
 @media (max-width: 720px) {

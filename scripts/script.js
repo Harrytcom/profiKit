@@ -38,9 +38,9 @@ footers.forEach(footer => {
     }
   })
   
-  footer.addEventListener('click', function (event) {
-    if (event.target.classList.contains('card__button')) {
-      input.value++
-    }
-  })
+  // footer.addEventListener('click', function (event) {
+  //   if (event.target.classList.contains('card__button')) {
+  //     input.value++
+  //   }
+  // })
 })
