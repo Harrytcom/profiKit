@@ -8,6 +8,7 @@
 
 .product-slider__item {
   display: flex;
+  width: auto;
   height: auto;
 }
 
@@ -16,6 +17,7 @@
   top: 50%;
   transform: translateY(-50%);
   z-index: 5;
+  cursor: pointer;
 }
 
 .product-slider__prev {
@@ -27,10 +29,6 @@
 }
 
 @media (max-width: 1570px) {
-  .product-slider__item {
-    width: auto;
-  }
-
   .product-slider__prev {
     left: 20px;
   }

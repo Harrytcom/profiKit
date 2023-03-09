@@ -1,16 +1,13 @@
 .title {
   font-weight: 700;
+  font-size: 34px;
   line-height: 118%;
   color: var(--primary-text-color);
   text-transform: var(--primary-text-transform);
 }
 
-.title--m {
-  font-size: 34px;
-}
-
 @media (max-width: 720px) {
-  .title--m {
+  .title {
     font-size: 18px;
   }
 }

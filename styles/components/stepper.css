@@ -4,6 +4,7 @@
   height: 50px;
   border: var(--primary-border);
   border-radius: 5px;
+  overflow: hidden;
 }
 
 .stepper__arrow {

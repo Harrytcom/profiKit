@@ -2,10 +2,6 @@
   display: flex;
   flex-flow: column wrap;
   gap: 5px;
-  position: absolute;
-  top: 20px;
-  right: 20px;
-  z-index: 5;
 }
 
 .icon {

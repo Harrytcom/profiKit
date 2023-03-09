@@ -15,15 +15,21 @@
   <section class="section">
     <div class="container">
       <!-- TABS -->
-      <div class="tabs">
-        <ul class="tabs__list">
-          <li class="tabs__list-item tabs__list-item--active">
-            <h2 class="tabs__header title title--m">популярные товары</h2>
+        <ul class="tabs container__header">
+          <li class="tabs__item tabs__item--active">
+            <h2 class="title">популярные товары</h2>
           </li>
-          <li class="tabs__list-item">Недавно купили</li>
-          <li class="tabs__list-item">Вас может заинтересовать</li>
+          <li class="tabs__item">
+            <a href="#" class="link">
+              Недавно купили
+            </a>
+          </li>
+          <li class="tabs__item">
+            <a href="#" class="link">
+              Вас может заинтересовать
+            </a>
+          </li>
         </ul>
-      </div>
       <!-- PRODUCT SLIDER SECTION -->
       <div class="product-slider">
         <!-- SWIPER WRAPPER -->
@@ -36,15 +42,7 @@
                   <!-- INNER CARD GALLERY -->
                   <div class="gallery">
                     <div class="gallery__sector"></div>
-                    <div class="gallery__sector"></div>
-                    <div class="gallery__sector"></div>
-                    <div class="gallery__sector"></div>
-                    <div class="gallery__sector"></div>
                     <ul class="gallery__bullets">
-                      <li class="gallery__bullet"></li>
-                      <li class="gallery__bullet"></li>
-                      <li class="gallery__bullet"></li>
-                      <li class="gallery__bullet"></li>
                       <li class="gallery__bullet"></li>
                     </ul>
                   </div>
@@ -68,14 +66,14 @@
                   <span class="card__old-price">810 ₽</span>
                 </p>
                 <div class="card__footer card__footer-js">
-                  <div class="stepper">
+                  <div class="stepper card__stepper">
                     <button type="button" class="stepper__arrow stepper__arrow--down stepper__arrow--down-js">Add</button>
                     <input class="stepper__input stepper__input-js" type="number" placeholder="" value="1">
                     <button type="button" class="stepper__arrow stepper__arrow--up stepper__arrow--up-js">Remove</button>
                   </div>
                   <button class="button card__button card__button-js" type="button">
                     <img src="./img/cart-icon.svg" alt="корзина">
-                    <span>В корзину</span>
+                    В корзину
                   </button>
                 </div>
               </article>
@@ -126,14 +124,14 @@
                   <span class="card__old-price"></span>
                 </p>
                 <div class="card__footer card__footer-js">
-                  <div class="stepper">
+                  <div class="stepper card__stepper">
                     <button type="button" class="stepper__arrow stepper__arrow--down stepper__arrow--down-js">Add</button>                                           
                     <input class="stepper__input stepper__input-js" type="number" placeholder="" value="1">
                     <button type="button" class="stepper__arrow stepper__arrow--up stepper__arrow--up-js">Remove</button>
                   </div>
                   <button class="button card__button card__button-js" type="button">
                     <img src="./img/cart-icon.svg" alt="корзина">
-                    <span>В корзину</span>
+                    В корзину
                   </button>
                 </div>
               </article>
@@ -187,14 +185,14 @@
                   <span class="card__old-price"></span>
                 </p>
                 <div class="card__footer card__footer-js">
-                  <div class="stepper">
+                  <div class="stepper card__stepper">
                     <button type="button" class="stepper__arrow stepper__arrow--down stepper__arrow--down-js">Add</button>                                           
                     <input class="stepper__input stepper__input-js" type="number" placeholder="" value="1">
                     <button type="button" class="stepper__arrow stepper__arrow--up stepper__arrow--up-js">Remove</button>
                   </div>
                   <button class="button card__button card__button-js" type="button">
                     <img src="./img/cart-icon.svg" alt="корзина">
-                    <span>В корзину</span>
+                    В корзину
                   </button>
                 </div>
               </article>
@@ -248,14 +246,14 @@
                   <span class="card__old-price"></span>
                 </p>
                 <div class="card__footer card__footer-js">
-                  <div class="stepper">
+                  <div class="stepper card__stepper">
                     <button type="button" class="stepper__arrow stepper__arrow--down stepper__arrow--down-js">Add</button>                                           
                     <input class="stepper__input stepper__input-js" type="number" placeholder="" value="1">
                     <button type="button" class="stepper__arrow stepper__arrow--up stepper__arrow--up-js">Remove</button>
                   </div>
                   <button class="button card__button card__button-js" type="button">
                     <img src="./img/cart-icon.svg" alt="корзина">
-                    <span>В корзину</span>
+                    В корзину
                   </button>
                 </div>
               </article>
@@ -278,6 +276,7 @@
       </div>
     </div>
   </section>
+
   <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
   <script src="./scripts/script.js"></script>
   </body>

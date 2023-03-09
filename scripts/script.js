@@ -19,7 +19,7 @@ const swiper = new Swiper('.product-slider__inner', {
   slidesPerView: 'auto',
 
   breakpoints: {
-    1570: {
+    1610: {
       slidesPerView: 4,
     },
   }
@@ -38,9 +38,9 @@ footers.forEach(footer => {
     }
   })
   
-  // footer.addEventListener('click', function (event) {
-  //   if (event.target.classList.contains('card__button')) {
-  //     input.value++
-  //   }
-  // })
+  footer.addEventListener('click', function (event) {
+    if (event.target.classList.contains('card__button')) {
+      input.value++
+    }
+  })
 })
